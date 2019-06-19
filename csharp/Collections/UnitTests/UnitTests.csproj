@@ -48,7 +48,6 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SinglyLinkedList\SinglyLinkedListTest.cs" />
-    <Compile Include="Stack\StackTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Implementations\Implementations.csproj">
@@ -58,6 +57,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <None Include="SinglyLinkedList\SinglyLinkedList.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="SinglyLinkedList\Images\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
